@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input[type=text],input[type=password]{
+                width: 200px;
+                padding: 10px;
+                border: 1px solid grey;
+                border-radius: 4px;
+                
+            }
+            button[type=submit]{
+                background-color: navajowhite;
+                color: black;
+                border: none;
+                border-radius: 12px;
+                cursor: pointer;
+            }
+            button[type=reset]{
+                background-color: navajowhite;
+                color: black;
+                border: none;
+                border-radius: 12px;
+                cursor: pointer;
+            }
+            body{
+                border-radius: 7px;
+                background-color: darkgray;
+                padding: 25px 195px;
+            }
+            #row{
+                content: "";
+                display: table;
+                clear: both;
+                padding: 55px 200px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="head">
+            <marquee style="background-color:aqua; height: 48px;"><h2>Department of Computer Applications(UG)</h2></marquee>
+        </div>
+
+        <form>
+            <div id="row">
+        <div id="body">
+            <input type="text" name="id" placeholder="USERNAME" required><br><br>
+            <input type="password" name="Password" placeholder="PASSWORD" required><br><br>
+        </div>
+
+        <div id="foot">
+            <footer>
+                <input type="checkbox" id="terms" required>I agree all the terms and conditions of the webpage.<a href="acc4.pdf">Terms and conditions</a><br><br>
+                <button type="submit" value="Submit">Submit</button>
+                <button type="reset" value="reset">Reset</button>
+            </footer>
+        </div>
+
+        <div>
+            <p>Once completed the Resistration go to the website.<a href="index.html">Web page</a></p>
+        </div>
+        </div>
+        </form>
+    </body>
+</html>
